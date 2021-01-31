@@ -4,10 +4,8 @@
 // alert('hi ' + yourName)
 // console.log(yourName);
 
-
+function age(){
 var yourAge = prompt('how old are you?');
-
-
 
 if(yourAge > 15 && yourAge <50){
 alert('You will go trip to space');
@@ -16,16 +14,18 @@ alert('We are invited to watch the best film about space ');
 };
 
 console.log(yourAge);
+}
 
+function name(){
 var planetName = prompt('give me one of Planets ? ,write in small letters','place your planet');
 while(planetName !=='earth' && planetName !=='mercury' && planetName !=='venus' && planetName !=='mars' && planetName !== 'jupiter' && planetName !=='saturn'&& planetName !=='uranus' && planetName !=='neptune'){
     planetName = prompt('please enter the correct planet')
 }
 
 console.log(planetName);
+}
 
-
-
+function number(){
 var numberPlanet = prompt('how many planet do you know ?')
 
 var image=''; 
@@ -40,10 +40,22 @@ for(var i = 0; i < numberPlanet; i++){
     }
 }
 document.write(image)
+}
+
+age();
+name();
+number();
 
 
 
 
+function myFunction() {
+    document.body.style.backgroundColor = "#ffcccc";
+
+}
+function myFunction2() {
+document.body.style.backgroundColor = "#f0b3ff";
+}
 
 
 
@@ -68,13 +80,6 @@ document.write(image)
 // var number2 = "10";
 // console.log(number1 == number2);
 
-// function myFunction() {
-//     document.body.style.backgroundColor = "#ffcccc";
-
-// }
-// function myFunction2() {
-// document.body.style.backgroundColor = "#f0b3ff";
-// }
 
 
 
